@@ -1,0 +1,27 @@
+Q1.Difference between document and window objects
+Answer:
+Window:
+Window is the top most object of the DOM Hierarchy.It represents a browser window that displays the contents of the webpage.Global objects,functions,variables of the Javascript are members of window object.
+Syntax:window.propertyname.
+Properties of window:
+1.Location:It contains URL of the current window.
+2.innerWidth:It is used to get the width of the content area of the browser window.
+3.Name:It contains name of the referenced window.
+Window methods:
+1.window.alert()-to display an alert box
+2.window.confirm()-display a dialog with two buttons i.e.OK and Cancel.
+3.window.prompt()-It prompts the user to input some text.
+
+Document:
+It is an object present inside the window.It represents an HTML Document or webpage that is loaded in the browser.All the tags,elements with attributes in HTML are part of the document.
+Properties of document objects can be accessed by a window like the window.document.title.
+Syntax:document.propertyname
+Properites of document :
+1.URL:It returns the complete URL of the document.
+2.readystate:It returns the loading state of the document.
+3.scripts:It returns all scripts elements present in the document.
+Methods of document:
+1.document.createElement()-It is used to create HTML element.
+2.document.getElementByid()-It returns object of the given ID.if no object is present in the given ID ,it returns null.
+3.document.write()-It is used to write some javascript code in the document.
+
